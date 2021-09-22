@@ -82,6 +82,14 @@ function setOperation(operator)
         case backspace.value : 
              
             result.innerText = result.innerText.replace(result.innerText[result.innerText.length-1],'')
+            if(number2 !="")
+            {
+                number2 = number2.replace(number2[number2.length-1],'')
+            }
+            else{
+                number1 = number1.replace(number1[number1.length-1],'')
+
+            }
             operation=""
 
         break;
