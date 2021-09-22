@@ -1,0 +1,51 @@
+:root{
+
+    --background-color:black;
+    --div-color:white;
+}
+body{
+    background-color: var(--background-color);
+}
+.container{
+    background-color: #4B5563;
+    cursor: pointer;
+    position: absolute;
+    padding:30px 30px;
+    margin-top: -10px;
+    margin-left: 320px;
+    
+}
+.table{
+    margin: auto auto;
+    border:1px solid var(--background-color);
+    border-collapse: collapse;
+    width:75vh;
+    height: 10vh;
+    padding: 0%;
+    margin-bottom: 10px;
+}
+th{
+    border: 2px solid var(--background-color);
+     height: 15vh; 
+     width: 10vh;
+     text-align: right;
+     font-size: xx-large;
+     background-color: #9CA3AF;
+    }
+    td{
+        border: 2px solid var(--background-color);
+        height: 10vh; 
+        width: 10vh;
+        text-align: center;
+        transition: top ease 0.5s;
+        background-color: #6B7280
+        ;
+}
+td:hover{
+    font-weight: bolder;
+    font-size:x-large
+}
+h1{
+    margin-top: 0px;
+    text-align: center;
+}
